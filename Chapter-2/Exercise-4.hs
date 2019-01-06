@@ -2,4 +2,4 @@ last' :: [a] -> a
 last' n = head $ reverse n
 
 last'' :: [a] -> a
-last'' n = n !! $ (length n)(-1)
+last'' n = n !! $ (length n)-1
